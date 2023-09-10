@@ -4,7 +4,7 @@ maximum_score = int (input('Enter the maximum score of the test: '))
 print()
 score = float(input('Enter the score obtained: '))
 print()
-print(f'Performance of students in {test_name}')
+print(f'Performance of students in {test_name}.')
 print()
 a = round(((score*100)/maximum_score),2)
 if 90 <= a <= 100:
